@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE3EFE506FF05E90DA5E460D /* Pods_Cyphe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E20DDB9C8DE8353669F564C /* Pods_Cyphe.framework */; };
 		C912E8BD1C022DE2009F3233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E8BC1C022DE2009F3233 /* AppDelegate.swift */; };
-		C912E8BF1C022DE2009F3233 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E8BE1C022DE2009F3233 /* ViewController.swift */; };
 		C912E8C21C022DE2009F3233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C912E8C01C022DE2009F3233 /* Main.storyboard */; };
 		C912E8C41C022DE2009F3233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C912E8C31C022DE2009F3233 /* Assets.xcassets */; };
 		C912E8C71C022DE2009F3233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C912E8C51C022DE2009F3233 /* LaunchScreen.storyboard */; };
 		C912E8D21C022DE2009F3233 /* CypheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E8D11C022DE2009F3233 /* CypheTests.swift */; };
 		C912E8DD1C022DE2009F3233 /* CypheUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E8DC1C022DE2009F3233 /* CypheUITests.swift */; };
+		C912E8EB1C022ECB009F3233 /* loginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E8EA1C022ECB009F3233 /* loginScreenViewController.swift */; };
+		C912E8EE1C023130009F3233 /* findSpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E8ED1C023130009F3233 /* findSpotViewController.swift */; };
+		C912E8F01C0231A9009F3233 /* spotClickedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E8EF1C0231A9009F3233 /* spotClickedViewController.swift */; };
+		C912E8F21C0231F1009F3233 /* postSpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E8F11C0231F1009F3233 /* postSpotViewController.swift */; };
+		C912E8F41C025E9D009F3233 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E8F31C025E9D009F3233 /* registerViewController.swift */; };
+		C912E8F61C0261C0009F3233 /* loginClassFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E8F51C0261C0009F3233 /* loginClassFunctions.swift */; };
+		C912E8F91C026FFD009F3233 /* JSONFetchClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E8F81C026FFD009F3233 /* JSONFetchClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		556230A2D5F4DCE661B37812 /* Pods-Cyphe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cyphe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cyphe/Pods-Cyphe.debug.xcconfig"; sourceTree = "<group>"; };
+		8E20DDB9C8DE8353669F564C /* Pods_Cyphe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cyphe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		912CE04EE61CC68C5B55C646 /* Pods-Cyphe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cyphe.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cyphe/Pods-Cyphe.release.xcconfig"; sourceTree = "<group>"; };
 		C912E8B91C022DE2009F3233 /* Cyphe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyphe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C912E8BC1C022DE2009F3233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C912E8BE1C022DE2009F3233 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C912E8C11C022DE2009F3233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C912E8C31C022DE2009F3233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C912E8C61C022DE2009F3233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,13 @@
 		C912E8D81C022DE2009F3233 /* CypheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CypheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C912E8DC1C022DE2009F3233 /* CypheUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypheUITests.swift; sourceTree = "<group>"; };
 		C912E8DE1C022DE2009F3233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C912E8EA1C022ECB009F3233 /* loginScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = loginScreenViewController.swift; path = ViewController/loginScreenViewController.swift; sourceTree = "<group>"; };
+		C912E8ED1C023130009F3233 /* findSpotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = findSpotViewController.swift; path = ViewController/findSpotViewController.swift; sourceTree = "<group>"; };
+		C912E8EF1C0231A9009F3233 /* spotClickedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = spotClickedViewController.swift; path = ViewController/spotClickedViewController.swift; sourceTree = "<group>"; };
+		C912E8F11C0231F1009F3233 /* postSpotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = postSpotViewController.swift; path = ViewController/postSpotViewController.swift; sourceTree = "<group>"; };
+		C912E8F31C025E9D009F3233 /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		C912E8F51C0261C0009F3233 /* loginClassFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = loginClassFunctions.swift; path = Classes/loginClassFunctions.swift; sourceTree = "<group>"; };
+		C912E8F81C026FFD009F3233 /* JSONFetchClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONFetchClass.swift; path = "JSON Holders/JSONFetchClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3EFE506FF05E90DA5E460D /* Pods_Cyphe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02414E6730BBADAF917DD2A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				556230A2D5F4DCE661B37812 /* Pods-Cyphe.debug.xcconfig */,
+				912CE04EE61CC68C5B55C646 /* Pods-Cyphe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9028F881F2239556D3627204 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E20DDB9C8DE8353669F564C /* Pods_Cyphe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C912E8B01C022DE2009F3233 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				C912E8D01C022DE2009F3233 /* CypheTests */,
 				C912E8DB1C022DE2009F3233 /* CypheUITests */,
 				C912E8BA1C022DE2009F3233 /* Products */,
+				02414E6730BBADAF917DD2A3 /* Pods */,
+				9028F881F2239556D3627204 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				C912E8BC1C022DE2009F3233 /* AppDelegate.swift */,
-				C912E8BE1C022DE2009F3233 /* ViewController.swift */,
+				C912E8F71C0261CF009F3233 /* Class Functions */,
+				C912E8EC1C02307D009F3233 /* ViewControllers */,
 				C912E8C01C022DE2009F3233 /* Main.storyboard */,
 				C912E8C31C022DE2009F3233 /* Assets.xcassets */,
 				C912E8C51C022DE2009F3233 /* LaunchScreen.storyboard */,
@@ -125,6 +162,27 @@
 			path = CypheUITests;
 			sourceTree = "<group>";
 		};
+		C912E8EC1C02307D009F3233 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C912E8EA1C022ECB009F3233 /* loginScreenViewController.swift */,
+				C912E8ED1C023130009F3233 /* findSpotViewController.swift */,
+				C912E8F11C0231F1009F3233 /* postSpotViewController.swift */,
+				C912E8F31C025E9D009F3233 /* registerViewController.swift */,
+				C912E8EF1C0231A9009F3233 /* spotClickedViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C912E8F71C0261CF009F3233 /* Class Functions */ = {
+			isa = PBXGroup;
+			children = (
+				C912E8F51C0261C0009F3233 /* loginClassFunctions.swift */,
+				C912E8F81C026FFD009F3233 /* JSONFetchClass.swift */,
+			);
+			name = "Class Functions";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C912E8E11C022DE2009F3233 /* Build configuration list for PBXNativeTarget "Cyphe" */;
 			buildPhases = (
+				D66E10D00C94DA8F3E3B959F /* Check Pods Manifest.lock */,
 				C912E8B51C022DE2009F3233 /* Sources */,
 				C912E8B61C022DE2009F3233 /* Frameworks */,
 				C912E8B71C022DE2009F3233 /* Resources */,
+				55188B71F6FFA56B5048719A /* Embed Pods Frameworks */,
+				EEF3E689F568ECC1EAEED4CD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +315,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55188B71F6FFA56B5048719A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cyphe/Pods-Cyphe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D66E10D00C94DA8F3E3B959F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEF3E689F568ECC1EAEED4CD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cyphe/Pods-Cyphe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C912E8B51C022DE2009F3233 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C912E8BF1C022DE2009F3233 /* ViewController.swift in Sources */,
+				C912E8F61C0261C0009F3233 /* loginClassFunctions.swift in Sources */,
+				C912E8F91C026FFD009F3233 /* JSONFetchClass.swift in Sources */,
+				C912E8EE1C023130009F3233 /* findSpotViewController.swift in Sources */,
+				C912E8EB1C022ECB009F3233 /* loginScreenViewController.swift in Sources */,
+				C912E8F01C0231A9009F3233 /* spotClickedViewController.swift in Sources */,
+				C912E8F41C025E9D009F3233 /* registerViewController.swift in Sources */,
+				C912E8F21C0231F1009F3233 /* postSpotViewController.swift in Sources */,
 				C912E8BD1C022DE2009F3233 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +515,7 @@
 		};
 		C912E8E21C022DE2009F3233 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556230A2D5F4DCE661B37812 /* Pods-Cyphe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Cyphe/Info.plist;
@@ -411,6 +527,7 @@
 		};
 		C912E8E31C022DE2009F3233 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 912CE04EE61CC68C5B55C646 /* Pods-Cyphe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Cyphe/Info.plist;
@@ -487,6 +604,7 @@
 				C912E8E31C022DE2009F3233 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C912E8E41C022DE2009F3233 /* Build configuration list for PBXNativeTarget "CypheTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +613,7 @@
 				C912E8E61C022DE2009F3233 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C912E8E71C022DE2009F3233 /* Build configuration list for PBXNativeTarget "CypheUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +622,7 @@
 				C912E8E91C022DE2009F3233 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
