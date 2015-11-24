@@ -33,6 +33,7 @@ class findSpotViewController: UIViewController {
                         let metaInfo = locationDataJSON(json: metaInfoJson.1)
                         self.locationData.append(metaInfo)
                         self.locationTables.reloadData()
+                        print(self.locationData.count)
                     }
                 }
                 
@@ -56,7 +57,7 @@ extension findSpotViewController: UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell")
+        let cell = locationTables.dequeueReusableCellWithIdentifier("Cell")
         let locationTitleLabel = cell?.viewWithTag(1) as! UILabel
         let locationDescriptionLabel = cell?.viewWithTag(2) as! UILabel
         let ratingLabel = cell?.viewWithTag(3) as! UILabel
@@ -71,13 +72,13 @@ extension findSpotViewController: UITableViewDataSource {
     }
 }
 
-//extension findSpotViewController: UITableViewDelegate {
+extension findSpotViewController: UITableViewDelegate {
     
   //  func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         //performSegueWithIdentifier(<#T##identifier: String##String#>, sender: self)
   //  }
     
-//}
+}
 
 
 
