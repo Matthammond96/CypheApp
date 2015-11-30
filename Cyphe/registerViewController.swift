@@ -2,24 +2,28 @@
 import Foundation
 import UIKit
 
-protocol registerDelagate {
-    func fillInForm()
-}
-
 class registerViewController: UIViewController {
-    
-    //Varibles 
-    var delegate: registerDelagate?
+    //varibles
     
     //form IB
+
     @IBOutlet weak var UsernameForm: UITextField!
     @IBOutlet weak var passwordForm: UITextField!
+    @IBOutlet weak var passwordForm2: UITextField!
+    @IBOutlet weak var errorLabel: UILabel!
     
     @IBAction func registerButton(sender: AnyObject) {
-        print(UsernameForm.text)
-        print(passwordForm.text)
-        delegate?.fillInForm()
-        performSegueWithIdentifier("registerFormFilled", sender: self)
+        if UsernameForm.text == "" && passwordForm.text == "" && passwordForm2.text == "" {
+            errorLabel.text = "Please fill in the required information (*)"
+        } else {
+            if passwordForm.text == passwordForm2.text {
+                print(UsernameForm.text)
+                print(passwordForm.text)
+                performSegueWithIdentifier("registerFormFilled", sender: self)
+            } else {
+               errorLabel.text = "Passowrds Do Not Match"
+            }
+        }
     }
     
     override func viewDidLoad() {

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE3EFE506FF05E90DA5E460D /* Pods_Cyphe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E20DDB9C8DE8353669F564C /* Pods_Cyphe.framework */; };
+		C906B5591C0A328B00CECF2B /* settingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C906B5581C0A328B00CECF2B /* settingViewController.swift */; };
 		C912E8BD1C022DE2009F3233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E8BC1C022DE2009F3233 /* AppDelegate.swift */; };
 		C912E8C21C022DE2009F3233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C912E8C01C022DE2009F3233 /* Main.storyboard */; };
 		C912E8C41C022DE2009F3233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C912E8C31C022DE2009F3233 /* Assets.xcassets */; };
@@ -21,6 +22,11 @@
 		C912E8F41C025E9D009F3233 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E8F31C025E9D009F3233 /* registerViewController.swift */; };
 		C912E8F61C0261C0009F3233 /* loginClassFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E8F51C0261C0009F3233 /* loginClassFunctions.swift */; };
 		C912E8F91C026FFD009F3233 /* JSONFetchClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912E8F81C026FFD009F3233 /* JSONFetchClass.swift */; };
+		C91696FD1C0AB947006A767E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91696FC1C0AB947006A767E /* MapKit.framework */; };
+		C918DFD11C07D753002FDD91 /* menuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C918DFD01C07D753002FDD91 /* menuTableViewController.swift */; };
+		C929B1AE1C066BAA00DB1A99 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C929B1AD1C066BAA00DB1A99 /* SWRevealViewController.m */; };
+		C9D1AF3F1C0C785E00B5FB14 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D1AF3E1C0C785E00B5FB14 /* UserInfo.swift */; };
+		C9D1AF411C0C7CB600B5FB14 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D1AF401C0C7CB600B5FB14 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,7 @@
 		556230A2D5F4DCE661B37812 /* Pods-Cyphe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cyphe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cyphe/Pods-Cyphe.debug.xcconfig"; sourceTree = "<group>"; };
 		8E20DDB9C8DE8353669F564C /* Pods_Cyphe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cyphe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		912CE04EE61CC68C5B55C646 /* Pods-Cyphe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cyphe.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cyphe/Pods-Cyphe.release.xcconfig"; sourceTree = "<group>"; };
+		C906B5581C0A328B00CECF2B /* settingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = settingViewController.swift; path = ViewController/settingViewController.swift; sourceTree = "<group>"; };
 		C912E8B91C022DE2009F3233 /* Cyphe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyphe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C912E8BC1C022DE2009F3233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C912E8C11C022DE2009F3233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +70,13 @@
 		C912E8F31C025E9D009F3233 /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
 		C912E8F51C0261C0009F3233 /* loginClassFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = loginClassFunctions.swift; path = Classes/loginClassFunctions.swift; sourceTree = "<group>"; };
 		C912E8F81C026FFD009F3233 /* JSONFetchClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONFetchClass.swift; path = "JSON Holders/JSONFetchClass.swift"; sourceTree = "<group>"; };
+		C91696FC1C0AB947006A767E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C918DFD01C07D753002FDD91 /* menuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuTableViewController.swift; sourceTree = "<group>"; };
+		C929B1AB1C066BAA00DB1A99 /* Cyphe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cyphe-Bridging-Header.h"; sourceTree = "<group>"; };
+		C929B1AC1C066BAA00DB1A99 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		C929B1AD1C066BAA00DB1A99 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		C9D1AF3E1C0C785E00B5FB14 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		C9D1AF401C0C7CB600B5FB14 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C91696FD1C0AB947006A767E /* MapKit.framework in Frameworks */,
 				BE3EFE506FF05E90DA5E460D /* Pods_Cyphe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +118,7 @@
 		9028F881F2239556D3627204 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C91696FC1C0AB947006A767E /* MapKit.framework */,
 				8E20DDB9C8DE8353669F564C /* Pods_Cyphe.framework */,
 			);
 			name = Frameworks;
@@ -167,9 +183,13 @@
 			children = (
 				C912E8EA1C022ECB009F3233 /* loginScreenViewController.swift */,
 				C912E8ED1C023130009F3233 /* findSpotViewController.swift */,
+				C9D1AF401C0C7CB600B5FB14 /* Extensions.swift */,
 				C912E8F11C0231F1009F3233 /* postSpotViewController.swift */,
 				C912E8F31C025E9D009F3233 /* registerViewController.swift */,
+				C918DFD01C07D753002FDD91 /* menuTableViewController.swift */,
 				C912E8EF1C0231A9009F3233 /* spotClickedViewController.swift */,
+				C906B5581C0A328B00CECF2B /* settingViewController.swift */,
+				C929B1AA1C066B3100DB1A99 /* SWRevealViewController */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -178,9 +198,20 @@
 			isa = PBXGroup;
 			children = (
 				C912E8F51C0261C0009F3233 /* loginClassFunctions.swift */,
+				C9D1AF3E1C0C785E00B5FB14 /* UserInfo.swift */,
 				C912E8F81C026FFD009F3233 /* JSONFetchClass.swift */,
 			);
 			name = "Class Functions";
+			sourceTree = "<group>";
+		};
+		C929B1AA1C066B3100DB1A99 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C929B1AC1C066BAA00DB1A99 /* SWRevealViewController.h */,
+				C929B1AD1C066BAA00DB1A99 /* SWRevealViewController.m */,
+				C929B1AB1C066BAA00DB1A99 /* Cyphe-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,7 +406,12 @@
 				C912E8F01C0231A9009F3233 /* spotClickedViewController.swift in Sources */,
 				C912E8F41C025E9D009F3233 /* registerViewController.swift in Sources */,
 				C912E8F21C0231F1009F3233 /* postSpotViewController.swift in Sources */,
+				C9D1AF3F1C0C785E00B5FB14 /* UserInfo.swift in Sources */,
+				C9D1AF411C0C7CB600B5FB14 /* Extensions.swift in Sources */,
+				C929B1AE1C066BAA00DB1A99 /* SWRevealViewController.m in Sources */,
 				C912E8BD1C022DE2009F3233 /* AppDelegate.swift in Sources */,
+				C918DFD11C07D753002FDD91 /* menuTableViewController.swift in Sources */,
+				C906B5591C0A328B00CECF2B /* settingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,10 +554,13 @@
 			baseConfigurationReference = 556230A2D5F4DCE661B37812 /* Pods-Cyphe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Cyphe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.matthammond.Cyphe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cyphe/Cyphe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -530,10 +569,12 @@
 			baseConfigurationReference = 912CE04EE61CC68C5B55C646 /* Pods-Cyphe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Cyphe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.matthammond.Cyphe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cyphe/Cyphe-Bridging-Header.h";
 			};
 			name = Release;
 		};
